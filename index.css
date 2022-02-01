@@ -6,9 +6,20 @@ body{
     --bg-primary: #ff4c68;
     --bg-sec: #ffffff;
 }
-#title{
-    background-color: var(--bg-primary);
+h1{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 800;
+    
 }
+
+h2{
+    font-weight:700;
+    line-height: 1.5;
+    font-size:3rem;
+}
+
 
 /* navbar */
 .navbar > .container-fluid{
@@ -32,22 +43,6 @@ body{
     font-size: 2.5rem;
 
 }
-
-
-/* title */
-h1{
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 800;
-    
-}
-
-
-.container-fluid{
-    padding:3% 15%;
-}  
-
 .nav-item{
     padding:0px 18px;
 }
@@ -57,7 +52,16 @@ h1{
 
     font-family:'Montserrat-light' ;
 }
- 
+
+
+/* title */
+#title{
+    background-color: var(--bg-primary);
+}
+
+.container-fluid{
+    padding:3% 15%;
+}
 
 /* download-button */
 .download-button{
@@ -69,9 +73,6 @@ h1{
 .title-image{
     width:60%;
     transform: rotate(25deg);
-    z-index: -100;
-
-
 }
 
 /* features section */
@@ -94,7 +95,34 @@ h1{
 .fas:hover{
     color: #ef8172;
 }
+
 /* testimonials section */
 #testimonials{
     background-color: var(--bg-primary);
+    text-align: center;
+    color: var(--bg-sec);
+}
+.testimonials-image{
+    border-radius: 100%;
+    width:10%;
+    padding-top:1%;
+}
+.carousel-item{
+    padding:7% 15%;
+
+
+}
+
+
+/* press section */
+
+#press{
+    background-color: var(--bg-primary);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-icon{
+    width:15%;
+    padding:1% 1.5%
 }
