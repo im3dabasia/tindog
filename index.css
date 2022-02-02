@@ -126,3 +126,12 @@ h2{
     width:15%;
     padding:1% 1.5%
 }
+
+/* pricing */
+#pricing{
+    padding:5% 10% ;
+    text-align: center;
+}
+.pricing-col{
+    margin:5% 2%;
+}
