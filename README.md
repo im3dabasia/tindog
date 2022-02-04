@@ -13,3 +13,4 @@ Technologies used:
 @im3dabasia :heart: Thanks for your time :hourglass:
 
 <!-- ![image](https://user-images.githubusercontent.com/76681468/152573178-13a7555f-80c7-4332-8da1-41c86bc2cd9c.png) -->
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
