@@ -2,7 +2,7 @@
 >_ "Where there is great love, there are always miracles."_
 ## 	:revolving_hearts: Dating site for Dogs! :couplekiss:
 <img src="https://github.com/im3dabasia/Javascript30/blob/master/Drum%20Kit/Final%20Output.png" width="700">
-Check out my work :rose:[Tindog]:rose:(https://im3dabasia.github.io/tindog/).
+Check out my work :rose:[Tindog](https://im3dabasia.github.io/tindog/):rose:
 
 Technologies used:
 - HTML
