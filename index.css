@@ -47,7 +47,13 @@ a.navbar-brand{
     font-family: 'Ubuntu';
     font-weight: bold;
     font-size: 2.5rem;
- }
+    color: var(--bg-sec);
+
+}
+
+.navbar-light .navbar-nav .nav-link , .navbar-light .navbar-brand  {
+    color: var(--bg-sec);
+}
  
 
 .nav-item{
@@ -56,9 +62,13 @@ a.navbar-brand{
 }
 
 .nav-link{
+
     font-size: 1.2rem;
-    font-family:'Montserrat-light' ;
+    font-family:'Ubuntu' ;
+     font-weight: 400;
+
 }
+ 
 
 /* title */
 #title{
@@ -87,6 +97,9 @@ a.navbar-brand{
     z-index: 1;
     top:130px;
     right:425px;
+}
+#color-white{
+    color: var(--bg-sec);
 }
 
 /* Media Queries */
